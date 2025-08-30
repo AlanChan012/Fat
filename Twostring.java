@@ -1,7 +1,12 @@
 public class Twostring {
-    
+
     String word1;
     String word2;
+
+    public Twostring(String word1, String word2) {
+        this.word1 = word1;
+        this.word2 = word2;
+    }
 
     public Twostring() {
         word1 = "I love you for ever";
@@ -15,5 +20,12 @@ public class Twostring {
         System.out.println(length2);
         System.out.println(Math.max(length1,length2));
 
+        //then I use the constructor at first
+        Twostring myobj = new Twostring("Hey Alan","have a nice day");
+        length1 = myobj.word1.length();
+        length2 = myobj.word2.length();
+        System.out.println(length1);
+        System.out.println(length2);
+        System.out.println(Math.max(length1,length2));
     }
 }

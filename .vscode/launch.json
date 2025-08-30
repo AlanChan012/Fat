@@ -1,0 +1,12 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Twostring",
+            "request": "launch",
+            "mainClass": "Twostring",
+            "vmArgs": "-Duser.language=en -Duser.country=US"
+        }
+    ]
+}
